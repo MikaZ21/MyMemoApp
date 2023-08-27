@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "sKK2+kTytRt8ind6QLqJwGqt+WAsYDgke8fUXJulJ+b4yS9wXsV0Klo02zJQObo5SVuyRHJcapALFm8IusDFHA==",
+  "dgSpecHash": "fpUmMkYsPVFzla4y5nFwrbEFxEEmyYaJPOxxhMPAMoazHOO3dZ3rHwxM+S1OegRD2v4p5PPnW5yMx385BFNpgg==",
   "success": true,
   "projectFilePath": "/Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/mymemoapp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/mikazukeyama/.nuget/packages/microsoft.data.sqlite/6.0.21/microsoft.data.sqlite.6.0.21.nupkg.sha512",
+    "/Users/mikazukeyama/.nuget/packages/microsoft.data.sqlite.core/6.0.21/microsoft.data.sqlite.core.6.0.21.nupkg.sha512",
+    "/Users/mikazukeyama/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.2/sqlitepclraw.bundle_e_sqlite3.2.1.2.nupkg.sha512",
+    "/Users/mikazukeyama/.nuget/packages/sqlitepclraw.core/2.1.2/sqlitepclraw.core.2.1.2.nupkg.sha512",
+    "/Users/mikazukeyama/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.2/sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
+    "/Users/mikazukeyama/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.2/sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512",
+    "/Users/mikazukeyama/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }
