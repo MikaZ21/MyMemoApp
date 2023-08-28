@@ -4,21 +4,66 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.Sqlite;
 using mymemoapp.Models;
+using mymemoapp.Models.ViewModels;
 
 namespace mymemoapp.Controllers;
-
-public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+      public class HomeController : Controller
+      {
+         private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
+         public HomeController(ILogger<HomeController> logger)
+         {
+            _logger = logger;
+         }
 
-    public IActionResult Index()
+        public IActionResult Index()
+        {
+            var memoListViewModel = GetAllMemos();
+            return View(memoListViewModel);
+        }
+
+    internal MemoViewModel GetAllMemos()
     {
-        return View();
+        List<MyMemo> memoList = new();
+
+        using (SqliteConnection con = 
+               new SqliteConnection("Data Source=db.sqlite"))
+        {
+            using (var tableCmd = con.CreateCommand())
+            {
+                con.Open();
+                tableCmd.CommandText = "SELECT * FROM mymemo";
+
+                using (var reader = tableCmd.ExecuteReader())
+                {
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            memoList.Add(
+                                new MyMemo
+                                {
+                                    Id = reader.GetInt32(0),
+                                    Name = reader.GetString(1)
+                                });
+                        }
+                    }
+                    else
+                    {
+                        return new MemoViewModel
+                        {
+                            MemoList = memoList
+                        };
+                     
+                    }
+                };
+            }
+        }
+        return new MemoViewModel
+        {
+            MemoList = memoList
+        };
     }
 
     public RedirectResult Insert(MyMemo memo)
@@ -42,4 +87,5 @@ public class HomeController : Controller
         }
         return Redirect("https://localhost:7079/");
     }
+}
 }
