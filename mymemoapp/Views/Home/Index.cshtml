@@ -1,4 +1,4 @@
-﻿@model mymemoapp.Models.ViewModels.MemoViewModel
+﻿@model MemoViewModel
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -23,6 +23,9 @@
                     <tr>
                         <td class="todos-column" scope="row">@m.Id</td>
                         <td class="todos-column">@m.Name</td>
+                        <td class="buttons-column">
+                            <input type="submit" value="Delete" onClick="deleteMemo(@m.Id)" />
+                        </td>
                     </tr>
                 }
             </tbody>

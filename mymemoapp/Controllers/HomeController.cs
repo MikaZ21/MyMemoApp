@@ -6,8 +6,8 @@ using Microsoft.Data.Sqlite;
 using mymemoapp.Models;
 using mymemoapp.Models.ViewModels;
 
-namespace mymemoapp.Controllers;
-
+namespace mymemoapp.Controllers
+{
       public class HomeController : Controller
       {
          private readonly ILogger<HomeController> _logger;
@@ -87,5 +87,22 @@ namespace mymemoapp.Controllers;
         }
         return Redirect("https://localhost:7079/");
     }
+
+    [HttpPost]
+    public JsonResult Delete(int id)
+    {
+        using (SqliteConnection con = 
+               new SqliteConnection("Data Source=db.sqlite"))
+        {
+            using (var tableCmd = con.CreateCommand())
+            {
+                con.Open();
+                tableCmd.CommandText = $"DELETE from mymemo WHERE Id = '{id}'";
+                tableCmd.ExecuteNonQuery();
+            }
+        }
+        return Json(new object{});
+    }
+}
 }
 
