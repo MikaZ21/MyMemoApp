@@ -1,12 +1,12 @@
-@model MyMemo
+@model MemoViewModel
 
 <form asp-action="Insert" id="form-action" method="post" role="form">
     <div asp-validation-summary="All"></div>
 
-    <label asp-asp-for="Name" ></label>
-    <input asp-for="Id" type="hidden" />
-    <input asp-for="Name" />
-    <span asp-validation-for="Name"></span>
+    <label asp-asp-for="Memo.Name" ></label>
+    <input asp-for="Memo.Id" type="hidden" />
+    <input asp-for="Memo.Name" />
+    <span asp-validation-for="Memo.Name"></span>
 
     <input type="submit" id="form-button" value="Add Memo" />
 </form>

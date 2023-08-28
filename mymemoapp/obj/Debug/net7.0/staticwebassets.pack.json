@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/mymemoapp.bundle.scp.css"
     },
     {
+      "Id": "/Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/wwwroot/-- SQLite.sql",
+      "PackagePath": "staticwebassets/-- SQLite.sql"
+    },
+    {
       "Id": "/Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

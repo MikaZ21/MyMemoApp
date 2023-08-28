@@ -7,7 +7,7 @@ using mymemoapp.Models;
 using mymemoapp.Models.ViewModels;
 
 namespace mymemoapp.Controllers;
-{
+
       public class HomeController : Controller
       {
          private readonly ILogger<HomeController> _logger;
@@ -88,4 +88,4 @@ namespace mymemoapp.Controllers;
         return Redirect("https://localhost:7079/");
     }
 }
-}
+
