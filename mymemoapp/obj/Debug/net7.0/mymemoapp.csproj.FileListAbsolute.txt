@@ -56,3 +56,8 @@
 /Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/obj/Debug/net7.0/mymemoapp.csproj.CopyComplete
+/Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
