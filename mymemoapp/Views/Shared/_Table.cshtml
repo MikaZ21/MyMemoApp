@@ -1,0 +1,26 @@
+<div>
+    <div>
+        <table class="table memo-table">
+            <thead>
+                <tr class="table-primary">
+                    <th scope="col">Id</th>
+                    <th scope="col">Memo</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var m in Model.MemoList)
+                {
+                    <tr>
+                        <td class="todos-column" scope="row">@m.Id</td>
+                        <td class="todos-column">@m.Name</td>
+                        <td class="buttons-column">
+                            <input type="submit" class="btn btn-danger btn-delete" value="Delete" onClick="deleteMemo(@m.Id)" />
+                            <input type="submit" class="btn btn-primary btn-update" value="Update" onClick="populateForm(@m.Id)" />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

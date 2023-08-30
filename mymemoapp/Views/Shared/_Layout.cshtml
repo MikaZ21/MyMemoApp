@@ -37,7 +37,14 @@
                 <main role="main" class="pb-3">
                     @RenderBody()
                 </main>
-                @Html.Partial("_Form")
+                <div class="memo-container">
+                    <div class="memo-table">
+                        @Html.Partial("_Table")
+                    </div>
+                    <div class="memo-form">
+                        @Html.Partial("_Form")
+                    </div>
+                </div>
             </div>
         </div>
     </div>

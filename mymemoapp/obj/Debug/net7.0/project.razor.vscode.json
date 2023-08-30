@@ -24055,6 +24055,11 @@
       "FilePath": "/Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/Views/Shared/_Table.cshtml",
+      "TargetPath": "Views\\Shared\\_Table.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }

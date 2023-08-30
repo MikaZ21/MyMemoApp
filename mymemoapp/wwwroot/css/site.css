@@ -41,8 +41,27 @@ body {
     opacity: .1;
   }
 
-  .headerTitle {
+  .display-4 {
   font-weight: 600;
+}
+
+.memo-container {
+  position: relative;
+}
+
+.memo-table {
+  width: 65%;
+}
+
+.memo-form {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.memo-box {
+  width: 90%;
 }
 
 .buttons-column {
@@ -57,12 +76,17 @@ body {
   --bs-table-bg: #eaffe9;
 }
 
-.btn-danger {
+.btn-delete, .btn-update, .btn-success {
+  border-radius: 3px;
+  color: white;
+}
+
+.btn-delete {
   background-color: #ee6801;
   border-color: #ee6801;
 }
 
-.btn-primary {
+.btn-update {
   background-color: #009624;
   border-color: #009624;
 }
