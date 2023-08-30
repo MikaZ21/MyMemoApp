@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/wwwroot/images/writing-note.svg",
+      "PackagePath": "staticwebassets/images/writing-note.svg"
+    },
+    {
       "Id": "/Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

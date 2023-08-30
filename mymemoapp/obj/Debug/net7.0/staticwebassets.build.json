@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "80Br52jIu2GuNC8dKOmm9zRCv0FgwG3UUHEzOfVJCvg=",
+  "Hash": "sS4vQr77MH9MhMtaBU2rQ4WDvx+zSWJiqY9cWd0Oz+g=",
   "Source": "mymemoapp",
   "BasePath": "_content/mymemoapp",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/wwwroot/images/writing-note.svg",
+      "SourceId": "mymemoapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/wwwroot/",
+      "BasePath": "_content/mymemoapp",
+      "RelativePath": "images/writing-note.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/writing-note.svg"
     },
     {
       "Identity": "/Users/mikazukeyama/Documents/Projects/MyMemoApp/mymemoapp/wwwroot/js/site.js",

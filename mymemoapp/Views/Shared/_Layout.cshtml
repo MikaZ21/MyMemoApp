@@ -30,11 +30,16 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-        @Html.Partial("_Form")
+
+    <div class="background">
+        <div class="container">
+            <div class="row justify-content-center">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+                @Html.Partial("_Form")
+            </div>
+        </div>
     </div>
 
     <footer class="border-top footer text-muted">
