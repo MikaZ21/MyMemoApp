@@ -17,17 +17,22 @@ html {
   min-height: 100%;
 }
 
+header {
+  width: 100%; 
+}
+
 body {
   margin-bottom: 60px;
   font-family: Kannada MN;
   font-weight: 600;
 }
 
-/* .background {
-  position: relative;
+
+.background {
+  /* position: relative;
   z-index: 1;
-  height: 100vh;
-} */
+  height: 100vh; */
+}
   .background::before {
     content: "";
     position: absolute;
@@ -103,10 +108,6 @@ body {
 
 hr:not([size]) {
   height: 1vh;
-}
-
-header {
-  margin-top: 10vh;
 }
 
 .form-control {
