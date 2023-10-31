@@ -10,4 +10,4 @@
 ![Update:Edit memo](https://github.com/MikaZ21/MyMemoApp/assets/93892096/f6857eb6-95f0-40b6-9892-b320e89dc739)
 
 #### Delete memo
-![Delete memo](https://github.com/MikaZ21/MyMemoApp/assets/93892096/a402e1e9-dec2-487c-83f7-3fa0a669e866)
+![Delete memo](https://github.com/MikaZ21/MyMemoApp/assets/93892096/3dbc6699-83a4-4112-b6f7-6ca8d8f9b370)
