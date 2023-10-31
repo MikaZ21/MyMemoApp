@@ -4,7 +4,7 @@
 ![MyMemoApp](https://github.com/MikaZ21/MyMemoApp/assets/93892096/7638521f-5b22-44ea-a0ee-6682657c3b56)
 
 #### Create/Add new memo
-![Create:Add new memo](https://github.com/MikaZ21/MyMemoApp/assets/93892096/acdcb1e2-4aa7-4a4e-a4cb-66a654a533a3)
+![Create:Add new memo](https://github.com/MikaZ21/MyMemoApp/assets/93892096/fd1a7b58-4fd9-459c-a68f-697fbc6f3402)
 
 #### Update/Edit memo
 ![Update:Edit memo](https://github.com/MikaZ21/MyMemoApp/assets/93892096/58796693-07d9-4e02-96d8-02669e6b5a06)
